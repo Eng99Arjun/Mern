@@ -2,7 +2,7 @@ const express = require("express");
 const rootRouter = require("./routes/index");
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5174',
     optionsSuccessStatus: 200 
   };
 

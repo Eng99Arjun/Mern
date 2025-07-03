@@ -22,37 +22,7 @@ export const SendMoney = () =>{
             <div className="border h-min text-card-foreground max-w-md p-4 space-y-8 w-96 bg-white shadow-lg rounded-lg">
                 <div className="flex flex-col space-y-1.5 p-6">
                     <h2 className="text-3xl font-bold text-center">Send Money</h2>
-                </div>
-                    <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"  htmlFor="amount"> Number: {number} </label>
-                <div className="flex flex-row">
-                      
-                    <button className="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-8 px-4 py-2 w-20 bg-green-500 text-white m-1"
-                    onClick={() =>{
-                        setNumber((count) => count + 1)
-                    }}>
-                        Add
-                    </button>
-                    <br/>
-                    <button className="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-8 px-4 py-2 w-20 bg-green-500 text-white m-1"
-                    onClick={() =>{
-                        if(number<=5){
-                            alert("Number cannot be less than 5");
-                            return;
-                        }
-                        setNumber((count) => count - 1)
-                    }}>
-                        Sub
-                    </button>
-                    <br/>
-                    <button className="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-8 px-4 py-2 w-20 bg-green-500 text-white m-1"
-                    
-                    onClick={() =>{
-                        setNumber(10)
-                    }}>
-                        Reset
-                    </button>
-                    </div>
-
+                </div>          
                 <div className="p-6">
                     <div className="flex items-center space-x-4">
                         <div className="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center">
